@@ -1,6 +1,6 @@
 ## Getting Started
 
-First, Create a .env file with the following details
+First, Create a .env at root level file with the following details
 ```
 NODE_ENV=development
 PORT=
@@ -10,8 +10,12 @@ DB_PASSWORD=
 DB_DATABASE=
 ```
 
+second,
+```bash
+npm i
+```
 
-Second , run the development server:
+third , run the development server:
 
 ```bash
 yarn dev
